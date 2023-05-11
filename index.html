@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cybersoft Academy </title>
+  <!--boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!--font awsome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Cybersoft Academy</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#" id="myBtn" type="button" >
+          <i class="fa fa-user-plus"></i>
+          <span class="links_name">Add User</span>
+          
+        </a>
+      </li>
+      <li>
+        <a href="#" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-box'></i>
+          <span class="links_name">Product</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-list-ul'></i>
+          <span class="links_name">Order list</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2'></i>
+          <span class="links_name">Analytics</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-coin-stack'></i>
+          <span class="links_name">Stock</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-book-alt'></i>
+          <span class="links_name">Total order</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Team</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-message'></i>
+          <span class="links_name">Messages</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">Favrorites</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">Setting</span>
+        </a>
+      </li>
+     
+
+      <li class="log_out">
+        <a href="#">
+          <i class='bx bx-log-out'></i>
+          <span class="links_name">Log out</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search'></i>
+      </div>
+      <div class="profile-details">
+        <img src="/images/download.jpg" alt="">
+        <span class="admin_name">Phan Thanh Long</span>
+        <i class='bx bx-chevron-down'></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Order</div>
+            <div class="number">40,876</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Sales</div>
+            <div class="number">38,876</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Profit</div>
+            <div class="number">$12,876</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-cart cart three'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Return</div>
+            <div class="number">11,086</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Down From Today</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four'></i>
+        </div>
+      </div>
+
+
+     
+      <div  class="sort-bar">
+        <label for="sort-select">Sort By:</label>
+        <select id="sort-select">
+          <option></option>
+ 
+         
+          <option value="name">Name</option>
+         
+        </select>
+        <select  class="custom-select " id="selLoai">
+          <option value="all" selected>All</option>
+  
+          <option value="student">Student</option>
+          <option value="employee">Employee</option>
+          <option value="customer">Customer</option>
+  
+        </select>
+      </div>
+
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <table class="table table-striped table-sm">
+            <thead style="background-color: black;">
+              <tr class="bg-success text-white">
+                <th>Id</th>
+                <th>User</th>
+                <th>Name</th>
+                <th style="width: 10%;">Address</th>
+                <th>Email</th>
+                <th  id="th-luong">Salary</th>
+                <th id="th-dtb">Av.Grade</th>
+                <th id="th-congTy">Company</th>
+                <th id="th-hoa-don">Total</th>
+                <th id="th-danhGia">Review</th>
+                <th style="text-align: center;width: 15%;"><i class="fa fa-cog"></i></th>
+              </tr>
+            </thead>
+            <tbody id="tbodyPerSon">
+              <tr>
+                <td>ma</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form id="myform">
+        <label for="type">Type</label>
+        <select name="" id="loai">
+          <option value="choose"  >Choose an option first!</option>
+          <option  value="student">Student</option>
+          <option value="employee">Employee</option>
+          <option  value="customer">Customer</option>
+        </select>
+        <span id="validation-type" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label for="id">ID</label>
+        <input type="text" id="ma" name="full-name"><br>
+        <span id="validation-id" class="d-block text-danger" style="font-size: 12px;"></span>
+        <span id="validation-id2" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        
+       
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="hoTen" name="full-name"><br>
+        <span id="validation-name" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label for="address">Address:</label>
+        <input type="text" id="diaChi" name="address"><br>
+        <span id="validation-address" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <span id="validation-email" class="d-block text-danger" style="font-size: 12px;"></span>
+        
+        <label id="label-math"  for="math-score">Math Score:</label>
+        <input  type="text" id="toan" name="math-score"><br>
+        <span id="validation-math" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label id="label-physics"  for="physics-score">Physics Score:</label>
+        <input  type="text" id="ly" name="physics-score"><br>
+        <span id="validation-physics" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label id="label-chemistry"  for="chemistry-score">Chemistry Score:</label>
+        <input  type="text" id="hoa" name="chemistry-score"><br>
+        <span id="validation-chemistry" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label  id="label-day" for="day-worked">Day Worked:</label>
+        <input  type="text" id="soNgayLam" name="day-worked"><br>
+        <span id="validation-day" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label  id="label-salary" for="salary-per-day">Salary per Day:</label>
+        <input  type="text" id="luongTheoNgay" name="salary-per-day"><br>
+        <span id="validation-salary" class="d-block text-danger" style="font-size: 12px;"></span>
+
+        <label  id="label-company" for="company-name">Company Name:</label>
+          <input  type="text" id="tenCongTy" name="company-name"><br>
+          <span id="validation-company" class="d-block text-danger" style="font-size: 12px;"></span>
+
+          <label  id="label-bill" for="total-bill">Total Bill:</label>
+          <input type="text" id="triGiaHoaDon" name="total-bill"><br>
+          <span id="validation-bill" class=" text-danger" style="font-size: 12px;"></span>
+
+          <label  id="label-review" for="review">Review:</label>
+          <textarea  id="danhGia" name="danhGia"></textarea><br>
+          <span id="validation-review" class="d-block text-danger" style="font-size: 12px;"></span>
+
+          <div class="buttons">
+            <button class="btn btn-primary" id="btnThemPerson" type="button">Submit</button>
+            <button class="btn btn-success" id="btnCapNhat" type="button">Cap Nhat</button>
+            <button class="btn btn-danger" id="btnDong" type="button">Dong</button>
+          </div>
+
+    </div>
+
+    </form>
+  </div>
+  </div>
+
+ 
+  <!--boostrap-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <!--mehthod-->
+  <!-- <script src="/utility/method.js"></script> -->
+  <!--js-->
+  <script type="module" src="/script.js"></script>
+
+</body>
+
+</html>
